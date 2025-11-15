@@ -1,0 +1,13 @@
+Flask==3.0.3
+ultralytics==8.2.52
+torch
+Pillow
+gunicorn==21.2.0
+
+# ultralytics==8.3.47
+# torch==2.1.0
+# torchvision==0.16.0
+# fastapi
+# uvicorn
+# numpy
+# Pillow
