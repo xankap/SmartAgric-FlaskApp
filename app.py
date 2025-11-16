@@ -27,7 +27,8 @@ import os
 app = Flask(__name__)
 # Load YOLO model (replace with your model path)
 MODEL_PATH = "best.pt"
-model = YOLO(MODEL_PATH)
+model = YOLO(MODEL_PATH, task="detect")
+
 print(f"✅ Ultralytics model loaded from {MODEL_PATH}")
 # Endpoint to test API status
 @app.route("/", methods=["GET"])
