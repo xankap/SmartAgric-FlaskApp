@@ -1,13 +1,23 @@
-Flask==3.0.3
-ultralytics==8.2.52
-torch
-Pillow
-gunicorn==21.2.0
+# Flask==3.0.3
+# ultralytics==8.2.52
+# torch
+# Pillow
+# gunicorn==21.2.0
 
-# ultralytics==8.3.47
+Flask==3.0.3
+ultralytics==8.1.0
+torch==2.1.0
+torchvision==0.16.0
+Pillow==10.0.1
+gunicorn==21.2.0
+numpy==1.26.4
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+
+# Flask==3.0.3
+# ultralytics==8.1.0
 # torch==2.1.0
 # torchvision==0.16.0
-# fastapi
-# uvicorn
-# numpy
-# Pillow
+# Pillow==10.2.0
+# gunicorn==21.2.0
+# numpy==1.26.4
