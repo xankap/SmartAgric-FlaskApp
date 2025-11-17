@@ -4,15 +4,15 @@
 # Pillow
 # gunicorn==21.2.0
 
-Flask==3.0.3
-ultralytics==8.3.0
-torch==2.1.0
-torchvision==0.16.0
-Pillow==10.0.1
-gunicorn==21.2.0
-numpy==1.26.4
-opencv-python-headless
---extra-index-url https://download.pytorch.org/whl/cpu
+# Flask==3.0.3
+# ultralytics==8.3.0
+# torch==2.1.0
+# torchvision==0.16.0
+# Pillow==10.0.1
+# gunicorn==21.2.0
+# numpy==1.26.4
+# opencv-python-headless
+# --extra-index-url https://download.pytorch.org/whl/cpu
 
 
 # Flask==3.0.3
@@ -22,3 +22,12 @@ opencv-python-headless
 # Pillow==10.2.0
 # gunicorn==21.2.0
 # numpy==1.26.4
+
+Flask==3.0.3
+ultralytics==8.3.0
+torch==2.1.0+cpu --index-url https://download.pytorch.org/whl/cpu
+torchvision==0.16.0+cpu --index-url https://download.pytorch.org/whl/cpu
+Pillow==10.0.1
+gunicorn==21.2.0
+numpy==1.26.4
+opencv-python-headless
